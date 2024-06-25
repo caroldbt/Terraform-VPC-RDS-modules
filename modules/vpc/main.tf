@@ -1,7 +1,7 @@
 
 terraform {
 backend "s3" {
-bucket = "newbucketcarol"
+bucket = "nombre de tu bucket"
 key = "path/to/terraform.tfstate"
 region = "us-east-1"
 }
