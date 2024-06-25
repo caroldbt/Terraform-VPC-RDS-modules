@@ -15,3 +15,7 @@ module "compute"{
     key_name = "vockey"
     ami = "ami-08a0d1e16fc3f61ea"
 }
+
+module "basedatos"{
+    source = "./modules/basedatos"
+}
